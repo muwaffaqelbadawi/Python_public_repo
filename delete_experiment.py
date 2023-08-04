@@ -1,21 +1,15 @@
-names = ["Muwaffaq", "Moazzar", "Moyassar", "Maeen", "Dave", "Wendy"]
+my_list_of_names = ["Muwaffaq", "Moazzar", "Moyassar", "Maeen", "Dave", "Wendy"]
 
+message = "You have the below list feel free to delete any of them\n{}:\n".format(
+    my_list_of_names)
 
-# Python ternary operator
-def start_with_Char(name):
-    return name if name[0] == "M" else None
-
-
+Entered_name = input(message)
 
 # anonymous function with ternary operator
-start_with_Char_anonymous = lambda name: name if name[0] == "M" else None
-# start_with_Char_anonymous = lambda name: name if name[0] == "M" else None
+def remove_name(name): return True if name != Entered_name else False
 
+# if you want to delete somthing
+filtered_list = list(filter(remove_name, my_list_of_names))
 
-m_starter_name_list = list(map(start_with_Char_anonymous, names))
-m_starter_name_l = list(filter(start_with_Char, names))
-
-# m_starter_name = list(map(start_with_Char, names))
-
-# print(m_starter_name_list)
-print(m_starter_name_l)
+print("You deleted the name {} now your list is\n{}".format(
+    Entered_name, filtered_list))
