@@ -1,4 +1,7 @@
 
+
+
+
 class Search:
     # def __init__(self) -> None:
         
@@ -25,8 +28,5 @@ Search.search()
 #         print('The name is:', cls.name)
 
 # Fruit.printName()
-
-
-
 
 
