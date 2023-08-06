@@ -1,7 +1,3 @@
-
-
-
-
 class Search:
     # def __init__(self) -> None:
         
@@ -15,10 +11,7 @@ class Search:
         
         # return True if name == name.entered_name else False
 
-
 Search.search()
-
-
 
 # class Fruit:
 #     name = 'Fruitas'
@@ -28,5 +21,3 @@ Search.search()
 #         print('The name is:', cls.name)
 
 # Fruit.printName()
-
-
