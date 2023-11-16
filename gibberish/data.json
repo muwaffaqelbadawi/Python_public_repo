@@ -1,0 +1,13 @@
+{
+  "result": [
+    {
+      "class": "question",
+      "course": {
+        "_class": "cours",
+        "title": "Angular 7 (formerly Angular 2) - the Comlete Guide",
+        "url": "the cmlete guide to angular"
+      }
+    }
+
+]
+}

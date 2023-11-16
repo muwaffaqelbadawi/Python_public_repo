@@ -1,0 +1,17 @@
+2019-06-22 22:51:27,760:__main__:try divide by zero
+2019-06-22 22:53:25,139:__main__:try divide by zero
+2019-06-22 22:55:28,570:__main__:try divide by zero
+Traceback (most recent call last):
+  File "index.py", line 32, in divide
+    result = x / y
+ZeroDivisionError: division by zero
+2019-06-22 22:59:30,520:__main__:try divide by zero
+Traceback (most recent call last):
+  File "index.py", line 35, in divide
+    result = x / y
+ZeroDivisionError: division by zero
+2019-06-22 23:01:36,637:__main__:try divide by zero
+Traceback (most recent call last):
+  File "index.py", line 36, in divide
+    result = x / y
+ZeroDivisionError: division by zero
